@@ -13,27 +13,25 @@ public class Idontknow {
 		
 	
 	
-	for(int b=3; b<=9; b+=2){
-		for(int a=3; a<=9; a+=2){
-			System.out.print(a);
-			System.out.print("*");
-			System.out.print(b);
-			System.out.print("=");
-			System.out.print(a*b);
-			System.out.print(" ");
+		for(int b=1; b<10; b++){
+			for(int a=2; a<10; a++){
+				System.out.print(a);
+				System.out.print("*");
+				System.out.print(b);
+				System.out.print("=");
+				System.out.print(a*b);
+				System.out.print(" ");
 
+			}
+			System.out.println(" ");
 		}
-		System.out.println(" ");
-		
-	}
 	
-	for(int x=8; x>=1; x--){
-		for(int y=1; y<=9; y++){
-			System.out.print(x*1000+y);
-			System.out.print(" ");
+		for(int x=8; x>=1; x--){
+			for(int y=1; y<=9; y++){
+				System.out.print(x*1000+y);
+				System.out.print(" ");
 			}			
-		System.out.println(" ");
-	
+			System.out.println(" ");
 		}
 	}
 }
