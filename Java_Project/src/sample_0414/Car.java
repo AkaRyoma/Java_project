@@ -1,5 +1,8 @@
 package sample_0414;
 
+
+
+
 public class Car {
 	private int man;
 	private int tire;
